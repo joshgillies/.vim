@@ -30,3 +30,7 @@
 	path = bundle/autoclose
 	url = https://github.com/vim-scripts/AutoClose.git
 	ignore = dirty
+[submodule "Solarized"]
+	path = Solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+	ignore = dirty
