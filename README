@@ -1,3 +1,6 @@
+Credits:
+Mad props to http://vimcasts.org/ in particular episode #27 "Synchronizing plugins with git submodules and pathogen" - Too cool!
+
 Installation:
 
     git clone git://github.com/joshgillies/.vim.git ~/.vim
@@ -6,6 +9,7 @@ Create symlinks:
 
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
+    ln -s ~/.vim/pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
